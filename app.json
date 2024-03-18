@@ -15,9 +15,13 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "buildNumber": "200",
+      "buildNumber": "201",
       "supportsTablet": true,
-      "bundleIdentifier": "de.movact.wahlswiper"
+      "bundleIdentifier": "de.movact.wahlswiper",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "The video player needs that permission, but the microphone is never used.",
+        "NSLocationWhenInUseUsageDescription": "A package uses this permission, but the location is not actively used."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -25,7 +29,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.wahlswiper",
-      "versionCode": 200
+      "versionCode": 201
     },
     "web": {
       "bundler": "metro",
