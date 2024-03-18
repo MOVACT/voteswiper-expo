@@ -60,7 +60,6 @@ const Settings: React.FC = () => {
             <Txt copy>{t("settings.systemDefaultText")}</Txt>
           </TouchableOpacity>
           {config.locales.map((lang) => {
-            console.log(config.rtlLocales.indexOf(lang) > -1);
             return (
               <TouchableOpacity
                 onPress={() => {
