@@ -16,6 +16,12 @@ The app is built with Expo (React Native). You can start the project, like any o
 eas build --profile development-simulator --platform ios
 ```
 
+or
+
+```console
+eas build --profile development-simulator --platform android
+```
+
 #### 2. Start the bundler
 
 ```console
