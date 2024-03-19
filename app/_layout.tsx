@@ -51,6 +51,7 @@ export default function RootLayout() {
   });
 
   OneSignal.initialize(Constants.expoConfig!.extra!.oneSignalAppId);
+  OneSignal.Notifications.requestPermission(true);
 
   // Expo Router uses Error Boundaries to catch errors in the navigation tree.
   useEffect(() => {

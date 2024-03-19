@@ -42,3 +42,4 @@ expo-env.d.ts
 
 android/keystores/release.keystore
 credentials.json
+google.json
