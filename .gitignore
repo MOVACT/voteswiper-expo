@@ -40,6 +40,6 @@ yarn-error.*
 expo-env.d.ts
 # @end expo-cli
 
-android/keystores/release.keystore
+android-app/keystores/release.keystore
 credentials.json
 google.json

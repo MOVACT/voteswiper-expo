@@ -15,7 +15,7 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "buildNumber": "201",
+      "buildNumber": "202",
       "supportsTablet": true,
       "bundleIdentifier": "de.movact.wahlswiper",
       "infoPlist": {
@@ -29,7 +29,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.wahlswiper",
-      "versionCode": 201
+      "versionCode": 202
     },
     "web": {
       "bundler": "metro",
