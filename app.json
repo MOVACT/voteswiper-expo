@@ -15,7 +15,7 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "buildNumber": "203",
+      "buildNumber": "204",
       "supportsTablet": true,
       "bundleIdentifier": "de.movact.wahlswiper",
       "infoPlist": {
